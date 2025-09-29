@@ -4,10 +4,10 @@ El objetivo es practicar HTML y CSS
 
 # Requisitos Pre.Entrega:
 
-1.✅ Estructura Básica de HTML.
+1. ✅ Estructura Básica de HTML.
 
-✅ Estructura semántica: El HTML debe estar dividido en las etiquetas semánticas principales: header, nav, main, section, footer. 
-✅ README.md: Incluir un archivo que explique brevemente el propósito de la página. 
++ ✅ Estructura semántica: El HTML debe estar dividido en las etiquetas semánticas principales: header, nav, main, section, footer. 
++ ✅ README.md: Incluir un archivo que explique brevemente el propósito de la página. 
 
 2. Formulario de Contacto.
 
@@ -24,18 +24,18 @@ El objetivo es practicar HTML y CSS
 
 4. Diseño Responsivo con Flexbox y Grid.
 
-* Sección "Productos": Organizada en cards de forma responsiva utilizando Flexbox.
-* Sección "Reseñas": Organizada utilizando Grid, con una distribución lógica y estética.
-* Sección "Contacto": Debe ser responsiva mediante el uso de Media Queries para adaptarse a diferentes tamaños de pantalla.
++ Sección "Productos": Organizada en cards de forma responsiva utilizando Flexbox.
++ Sección "Reseñas": Organizada utilizando Grid, con una distribución lógica y estética.
++ Sección "Contacto": Debe ser responsiva mediante el uso de Media Queries para adaptarse a diferentes tamaños de pantalla.
 
 5. Contenido Multimedia y Navegación
 
-* Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
-* Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
++ Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
++ Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
 
-6. Subida del Proyecto.
+6. ✅ Subida del Proyecto.
 
-✅ El proyecto debe estar subido a un hosting gratuito (Netlify o GitHub Pages), con una URL funcional para visualizar el sitio.
++ ✅ El proyecto debe estar subido a un hosting gratuito (Netlify o GitHub Pages), con una URL funcional para visualizar el sitio.
 
 # Extensiones de VS Code:
 * Spanish FOR VS Code: Para que VS Code este en español.
@@ -63,10 +63,7 @@ contiene Etiquetas Semanticas:
 + 	Aside: Publicidad o enlaces secundarios.
 * Footer: Contacto o Derechos de Autor.
 
-# Formato de Etiquetas:
-<Etiqueta Atributo="valor_atributo">
-	Contenido
-</Etiqueta>
+
 
 
 
