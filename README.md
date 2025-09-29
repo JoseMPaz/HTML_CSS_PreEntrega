@@ -4,9 +4,9 @@ El objetivo es practicar HTML y CSS
 
 # Requisitos Pre.Entrega:
 
-1. Estructura Básica de HTML.
+1.✅ Estructura Básica de HTML.
 
-* Estructura semántica: El HTML debe estar dividido en las etiquetas semánticas principales: header, nav, main, section, footer. 
+✅ Estructura semántica: El HTML debe estar dividido en las etiquetas semánticas principales: header, nav, main, section, footer. 
 ✅ README.md: Incluir un archivo que explique brevemente el propósito de la página. 
 
 2. Formulario de Contacto.
