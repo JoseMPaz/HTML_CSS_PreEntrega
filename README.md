@@ -1,22 +1,57 @@
 # HTML_CSS_PreEntrega
 Este repositorio será para subir codigo en HTML y CSS de una tienda en linea sobre partes de bicicletas.
+El objetivo es practicar HTML y CSS 
 
 # Extensiones de VS Code:
-
-# Spanish FOR VS Code: Para que VS Code este en español.
-# Autorename Tag: Cierra las etiquedas automaticamente.
-
-# Sitio Web: Colección de Paginas Web.
+* Spanish FOR VS Code: Para que VS Code este en español.
+* Autorename Tag: Cierra las etiquedas automaticamente.
 
 # HTML: Brinda la estructura a una Pagina Web.
+Un Sitio Web es una colección de Paginas Web.
 
-# Partes de HTML: Lo que no se vé (Head - Salvo title) y lo que si se vé(Body)
+# Partes de HTML: Lo que no se vé va en el Head(excepto title que si se ve en la descrición de la pestaña) y lo que si se vé va en Body.
 
 # Body contiene Etiquetas Semanticas:
 Header: Encabezado de una pagina web.
 Nav incluido de Header permite navegar por las paginas web del sitio web mediante Enlaces.
 Main: Contenido principal de la pagina web.
 Section: Agrupa elementos relacionados.
-Acticle: Puede ser un producto en mi sitio web.
+Article: Puede ser un producto en mi sitio web.
 Aside: Publicidad o enlaces secundarios.
-Footer: Contato o Derechos de Autor.
+Footer: Contacto o Derechos de Autor.
+
+# Requisitos Pre.Entrega:
+
+1. Estructura Básica de HTML.
+
+* Estructura semántica: El HTML debe estar dividido en las etiquetas semánticas principales: header, nav, main, section, footer. 
+✅ README.md: Incluir un archivo que explique brevemente el propósito de la página. 
+
+2. Formulario de Contacto.
+
+* Formulario funcional: Crear un formulario de contacto con campos para nombre, correo electrónico y mensaje, utilizando Formspree para manejar el envío de datos.
+
+3. Estilos Básicos Aplicados con CSS
+
+* Archivo styles.css: El proyecto debe contar con un archivo CSS externo que incluya:
+
++ Estilos básicos aplicados a las secciones de header, footer y lista de navegación.
++ Fuentes de Google Fonts correctamente implementadas.
+
+* Propiedades de background aplicadas en alguna sección de la página (color, imagen, degradado, etc.).
+
+4. Diseño Responsivo con Flexbox y Grid.
+
+* Sección "Productos": Organizada en cards de forma responsiva utilizando Flexbox.
+* Sección "Reseñas": Organizada utilizando Grid, con una distribución lógica y estética.
+* Sección "Contacto": Debe ser responsiva mediante el uso de Media Queries para adaptarse a diferentes tamaños de pantalla.
+
+5. Contenido Multimedia y Navegación
+
+* Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
+* Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
+
+6. Subida del Proyecto.
+
+✅ El proyecto debe estar subido a un hosting gratuito (Netlify o GitHub Pages), con una URL funcional para visualizar el sitio.
+
