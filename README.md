@@ -11,7 +11,12 @@ El objetivo es practicar HTML y CSS
 
 2. Formulario de Contacto.
 
-* Formulario funcional: Crear un formulario de contacto con campos para nombre, correo electrónico y mensaje, utilizando Formspree para manejar el envío de datos.
+* Formulario funcional: Crear un formulario de contacto con campos:
+* + ✅nombre  
+* + ✅correo electrónico 
+* + ✅mensaje , 
+* utilizando:
+* + Formspree para manejar el envío de datos.
 
 3. Estilos Básicos Aplicados con CSS
 
@@ -30,7 +35,7 @@ El objetivo es practicar HTML y CSS
 
 5. Contenido Multimedia y Navegación
 
-+ Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
++ ✅ Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
 + Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
 
 6. ✅ Subida del Proyecto.
