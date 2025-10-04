@@ -21,7 +21,7 @@ El objetivo es practicar HTML y CSS
 
 3. Estilos Básicos Aplicados con CSS
 
-* Archivo styles.css: El proyecto debe contar con un archivo CSS externo que incluya:
+* ✅Archivo styles.css: El proyecto debe contar con un archivo CSS externo que incluya:
 
 + Estilos básicos aplicados a las secciones de header, footer y lista de navegación.
 + Fuentes de Google Fonts correctamente implementadas.
