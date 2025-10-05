@@ -7,12 +7,20 @@
     <!--Enlace a la hoja de estilos en cascada CSS-->
 	<link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="../index.html">volver a Inicio</a>
-        </nav>
-    </header>
+<body>.
+    <header class="header">
+		<p class="header__logo">
+			<a href="../index.html">J M Paz Bike Works</a>
+		</p>
+		<nav class="header__nav">
+			<!--En el nav del header van enlaces a otras paginas-->
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="../paginas_web/formulario.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
     <main>
         <section>
             <h1>Contactese con nosotros:</h1>
@@ -44,8 +52,28 @@
         </aside>
         
     </main>
-    <footer>
-        <p>© 2025 J.M.Paz Bike Works. Todos los derechos reservados.</p>
-    </footer>
+
+    <footer class="footer">
+		<p class="relevante">Información del desarrollador web</p>
+		<nav>
+			<ul>
+				<li>
+					<!--La  etiqueta "a" de "anchor" o "ancla" crea enlaces a otras paginas web, email, documentos-->
+					<!--Enlace absoluto a un sitio web que se abre en una nueva pestaña-->
+					<a href="https://github.com/JoseMPaz" target="_blank">Github 🐱</a>
+				</li>
+
+				<li>
+					<!--Enlace para enviar un e-mail por ejemplo por thunderbird-->
+					<a href="mailto:jpaz885@gmail.com">Correo Electrónico 📧</a>
+				</li>
+
+				<li>
+					<!--Enlace para descargar un documento descargar y ver e una nueva pestaña-->
+					<a href="./documentos/historia_academica.pdf " download target="_blank">Historial Academico 📕</a>
+				</li>
+			</ul>
+		</nav>	
+	</footer>
 </body>
 </html>
