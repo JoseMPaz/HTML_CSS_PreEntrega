@@ -19,25 +19,25 @@ El objetivo es practicar HTML y CSS
 * ✅ Utilizando:
 + ✅ Formspree para manejar el envío de datos.
 
-3. Estilos Básicos Aplicados con CSS
+3. ✅Estilos Básicos Aplicados con CSS
 
 * ✅Archivo styles.css: El proyecto debe contar con un archivo CSS externo que incluya:
 
-+ Estilos básicos aplicados a las secciones de header, footer y lista de navegación.
-+ Fuentes de Google Fonts correctamente implementadas.
++ ✅Estilos básicos aplicados a las secciones de header, footer y lista de navegación.
++ ✅Fuentes de Google Fonts correctamente implementadas.
 
 * Propiedades de background aplicadas en alguna sección de la página (color, imagen, degradado, etc.).
 
 4. Diseño Responsivo con Flexbox y Grid.
 
-+ Sección "Productos": Organizada en cards de forma responsiva utilizando Flexbox.
++ ✅Sección "Productos": Organizada en cards de forma responsiva utilizando Flexbox.
 + Sección "Reseñas": Organizada utilizando Grid, con una distribución lógica y estética.
 + Sección "Contacto": Debe ser responsiva mediante el uso de Media Queries para adaptarse a diferentes tamaños de pantalla.
 
-5. Contenido Multimedia y Navegación
+5. ✅Contenido Multimedia y Navegación
 
 * ✅ Multimedia: Deberá incluir archivos multimedia (imagenes, video o iframe) correctamente integrado en la página.
-* Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
+* ✅Lista de navegación: Implementar una lista desordenada con enlaces que simulen una navegación interna (Inicio, Productos, Contacto, etc.).
 
 6. ✅ Subida del Proyecto.
 

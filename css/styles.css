@@ -38,7 +38,8 @@ body
     min-height: 100vh;/*Altura minima del body 100% de la altura de la ventana*/
 }
 
-.header 
+.header,
+.footer
 {
     background-color: cornflowerblue;
     color: brown;
@@ -50,6 +51,14 @@ body
 .header__logo
 {
     font-size: 3.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.footer_descripcion
+{
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 1rem;
     margin-left: 2rem;
@@ -98,17 +107,6 @@ body
     font-family: 'Bitcount Single Ink', cursive;/*Fuente de Google Fonts*/
 }   
 
-.footer 
-{
-    background-color: cornflowerblue;
-    color: darkblue;
-    padding: 10px 0;
-
-    display: flex;
-    justify-content: space-between;/*Centrar horizontalmente los elementos hijos*/
-    align-self: center;
-}   
-
 .footer nav ul
 {
     list-style: none;/*Quitar los puntos de la lista*/
@@ -117,23 +115,6 @@ body
     gap: 2rem;/*Espacio entre los elementos hijos*/
 }
 
-/*
-nav a 
-{
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-
-footer 
-{
-    background: blue;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-}
-*/
-/* Estilos para el formulario */
 form 
 {
     background: #ffffff;
@@ -143,60 +124,6 @@ form
     max-width: 600px;
     margin: auto;
 }
-
-/* Estilos para el iframe */
-/*iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-*/
-/* Estilos para audio y video */
-/*
-audio, video {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    border-radius: 5px;
-}
-*/
-
-/* Estilos responsivos */
-/*
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-    nav a {
-        padding: 10px;
-        border-bottom: 1px solid #ffffff;
-    }
-    nav a:last-child {
-        border-bottom: none;
-    }
-}*/
-
-/* Selector de clase*/
-/*
-.dueño_web{
-    background-color: yellow;
-    font-weight: bold;
-    color: black
-}
-
-#boton_envio{
-    font-size: 30px;
-    color: red;
-    background-color: green;
-}*/
-
-/*
-* Selector de Etiqueta
-* Afecta a todos los elementos de ese tipo
-*/
-
 
 .google-maps
 {
@@ -263,7 +190,7 @@ main p
 
 .tarjeta-producto
 {
-    background-color: black;
+    background-color: green;
     padding: 1rem;/*Relleno de 1rem*/
     border-radius: 1rem;
     width: 30rem;/*Ancho de la tarjeta 30rem*/
@@ -274,8 +201,81 @@ main p
     gap: 1rem;/*Espacio entre los elementos hijos*/
 }
 
-.tarjeta-producto img
+.tarjeta-producto img 
 {
-    width: 100%;/*Ancho de la imagen 100% del contenedor padre*/
-    border-radius: 0.5rem;
+  width: 200px;         /* todas las imágenes tendrán el mismo ancho */
+  height: 200px;        /* todas la misma altura */
+  object-fit: cover;    /* recorta sin deformar */
+  border-radius: 10px;  /* opcional: bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* opcional: sombra suave */
+}
+
+/* --- Estilo general del formulario --- */
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-family: "Bitcount Single Ink", sans-serif;
+}
+
+/* --- Fieldset y legend --- */
+fieldset {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* --- Etiquetas y campos del formulario --- */
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* --- Botón de envío --- */
+#boton-de-envio {
+  display: block;
+  margin: 0 auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#boton-de-envio:hover {
+  background-color: #0056b3;
 }
