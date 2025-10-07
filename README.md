@@ -16,13 +16,13 @@ El objetivo es practicar HTML y CSS
 + ✅ Nombre  
 + ✅ Correo electrónico 
 + ✅ Mensaje 
+  
 * ✅ Utilizando:
 + ✅ Formspree para manejar el envío de datos.
 
-3. ✅Estilos Básicos Aplicados con CSS
+1. ✅Estilos Básicos Aplicados con CSS
 
 * ✅Archivo styles.css: El proyecto debe contar con un archivo CSS externo que incluya:
-
 + ✅Estilos básicos aplicados a las secciones de header, footer y lista de navegación.
 + ✅Fuentes de Google Fonts correctamente implementadas.
 
